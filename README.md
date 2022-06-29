@@ -61,7 +61,7 @@ A car price can be different according to different factors, this is why it is i
 **Ho**= The car is not bought only by the price, there are other factors considered.\
 **H1**= The price is the only matter to buy the vehicle.
 
-### What statistical test would you use to test the hypothesis?
+### What statistical test would you use to test the hypothesis?
 A **Multiple Linear Regression** test would be the best in this scenario due the amount of variables used in this case, to see how many variables are dependent or independent if we want to see for example the price, the velocity, condition of the car, etc.
 
 ### What data is needed to run the statistical test?
