@@ -28,17 +28,17 @@ lot_summarize<- suspension_dataframe %>% group_by(Manufacturing_Lot) %>% summari
 
 
 ## T-Tests on Suspension Coils
-t.test(log10(suspension_dataframe$PSI), mu=mean(log10(1500)))
+t.test( (suspension_dataframe$PSI), mu=mean((1500)))
 
 
 # T-test first lot
 lot1 <- subset(suspension_dataframe, Manufacturing_Lot=="Lot1")
-t.test(log10(lot1$PSI), mu=mean(log10(1500)))
+t.test((lot1$PSI), mu=mean((1500)))
 
 # T-test second lot
 lot2 <- subset(suspension_dataframe, Manufacturing_Lot=="Lot2")
-t.test(log10(lot2$PSI), mu=mean(log10(1500)))
+t.test((lot2$PSI), mu=mean((1500)))
 
 # T-test third lot
 lot3 <- subset(suspension_dataframe, Manufacturing_Lot=="Lot3")
-t.test(log10(lot3$PSI), mu=mean(log10(1500)))
+t.test((lot3$PSI), mu=mean((1500)))
