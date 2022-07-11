@@ -58,11 +58,13 @@ A car price can be different according to different factors, this is why it is i
 - Fuel efficiency
 
 ### What is the null hypothesis or alternative hypothesis?
-**Ho**= The car is not bought only by the price, there are other factors considered.\
-**H1**= The price is the only matter to buy the vehicle.
+**H0**= There is **NO** statistical difference between each sample of fuel.\
+**H1**= There is a statistical difference between each sample of fuel.
 
 ### What statistical test would you use to test the hypothesis?
-A **Multiple Linear Regression** test would be the best in this scenario due the amount of variables used in this case, to see how many variables are dependent or independent if we want to see for example the price, the velocity, condition of the car, etc.
+A **Two-Sample T-Test** test would be the best in this scenario taking samples to compare, if this value never changes it means H0, otherwise H1.
+
+- Check if significance level is below of 0.05 percent to reject the null hypothesis of the paired t-test.
 
 ### What data is needed to run the statistical test?
 - Condition of the car
